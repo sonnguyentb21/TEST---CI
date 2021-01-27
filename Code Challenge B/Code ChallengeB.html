@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Number</title>
+    <link rel="stylesheet" href="Code ChallengeB.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Lucky Number</h1>
+        </div>
+        <div class="subtitle">
+            <p>Dự đoán con số của bạn nằm trong khoảng từ 1 đến 10</p>
+        </div>
+        <form class="guess">
+            <input class="luckyNumber" type="text" placeholder="Nhập con số mà bạn dự đoán được......" onkeypress="enterGuess(event)" id="goodLuck">
+            <button class="quaySo" type="button" id="quaySo" onclick="count()" id="Anwser">Quay số</button>
+        </form>
+    </div>
+    <script src="Code ChallengeB.js"></script>
+</body>
+</html>

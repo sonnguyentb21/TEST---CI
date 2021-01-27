@@ -1,0 +1,46 @@
+.main {
+    width: 50%;
+    border: 3px solid yellow;
+    margin: 10% 20%;
+    text-align: center;
+    padding: 5% 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+    background-color: lightpink;
+}
+.heading{
+    border-style: double;
+    background-color: lightblue;
+    margin: 0 5px;
+}
+
+.heading h1{
+    color: red;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: initial;
+    color: blueviolet;
+}
+
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#goodLuck{
+    height: 33px;
+    width: 35%;
+    border-radius: 7px;
+}
+
+button#quaySo {
+    padding: 10px 30px;
+    background-color: bisque;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: rebeccapurple;
+    margin-left: 3px
+}
